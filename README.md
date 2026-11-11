@@ -61,7 +61,17 @@ Geração automática de escala dos colaboradores
 Utilizei modelo próprio de prompt para a criação de aplicações web e mobile.
 
 ```text
-Cole aqui o seu primeiro atalho, já adaptado.
+CONTEXTO
+[Informações e legislação vigente aplicada sobre as diferentes escalas de trabalho (6x1, 5x2, 12x36, 24x72).]
+
+INSTRUÇÃO
+[Desenvolver uma página web localhost para aplicar as regras para criação da aplicação de escalas.]
+
+OBJETIVO
+[Reduzir o tempo para a criação de escalas, minimizar ao máximos os erros que prejudicam o colaborador e o RH da empresa e que podem levar a aplicação de medidas administrativas.]
+
+FORMATO
+[Página HTML rodando localmente sem dependência interna ou externas de serviçoes.]
 ```
 
 ```text
