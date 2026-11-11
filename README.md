@@ -71,7 +71,7 @@ OBJETIVO
 [Reduzir o tempo para a criação de escalas, minimizar ao máximos os erros que prejudicam o colaborador e o RH da empresa e que podem levar a aplicação de medidas administrativas.]
 
 FORMATO
-[Página HTML rodando localmente sem dependência interna ou externas de serviçoes.]
+[Página HTML+JS+CSS rodando localmente sem dependência interna ou externa de serviços.]
 ```
 
 ```text
@@ -98,13 +98,57 @@ Baseado nas informações referentes a escala 6x1 de trabalho presente na imagem
 
 ### O Plano da IA
 
-_Cole o print do plano e conte o que você ajustou antes de a IA começar._
+Neste primeiro momento informações reais foram utilizadas para uma melhor assertividade da IA, que depois foram ajustadas para limpar informações acerca de colaboradores para não contaminar o código gerado e nem expor informações sensíveis.
+
+1. Funcionalidades implementadas
+- Geração automática da escala mensal.
+- Identificação automática de meses com 28, 29, 30 e 31 dias.
+- Ciclo quinzenal configurado para Fábio.
+- Escala 6x1 para Jader e Maycon.
+- Configuração dos horários de entrada e saída.
+- Alteração manual das folgas.
+- Marcação de folga dupla, PEC, férias e folga normal.
+- Cadastro manual de feriados.
+- Destaque de folgas coincidentes com feriados.
+- Identificação dos domingos trabalhados por Fábio.
+- Exportação da escala para CSV.
+- Impressão da escala.
+2. Validações automáticas
+A aplicação verifica três condições importantes:
+Regra	Validação
+Domingos do Fábio	Meta de 2 domingos trabalhados
+Cobertura das 06h	Pelo menos um colaborador
+Cobertura das 14h	Pelo menos um colaborador
+Folga em feriado	Emissão de alerta
+Domingos consecutivos	Verificação da folga posterior
+
+3. Regra de funcionamento do Fábio
+Implementei inicialmente este ciclo-base de 14 dias:
+Período	Situação
+Dias 1 e 2	Folga dupla
+Dias 3 a 8	Trabalho
+Dia 9	Folga
+Dias 10 a 14	Trabalho
 
 ### O Resultado
 
-_Cole o print do resultado e conte como você conferiu antes de usar._
+Motor de geração de escala configurável, sem regras vinculadas a nomes.
+Ciclos de trabalho e folga independentes por colaborador.
+Preservação da sequência quinzenal configurada.
+Conferência dos domingos trabalhados e de folga.
+Verificação da cobertura dos horários de 06h e 14h.
+Ajustes manuais pelo gestor quando necessário.
+Salvamento automático e histórico por mês.
+Exportação CSV e impressão.
+Restauração da escala originalmente gerada.
+Aplicação autocontida.
+Sem necessidade de servidor ou internet.
+Armazenamento local por mês.
+Feriados persistentes.
+Configuração individual dos colaboradores.
+Edição manual e exportação CSV.
 
 ### Como Foi para Você
 
 O resulto e bastante satisfatório, mas é preciso revisar sempre o que foi entregue baseado no que foi pedido
-e assim ajustar conforme as necessidades do projeto.
+e assim ajustar conforme as necessidades e evoluções futuras do projeto.
