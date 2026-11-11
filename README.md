@@ -54,11 +54,11 @@ Nada de e-mail, nome de cliente, dado da empresa, senha ou informação pessoal 
 
 ### Minha Tarefa Real
 
-_Qual tarefa da sua semana você escolheu e por que ela vale a pena?_
+Geração automática de escala dos colaboradores
 
 ### Meus Atalhos
 
-_Conte quais modelos do kit você adaptou, o que ficou fixo e o que muda a cada uso._
+Utilizei modelo próprio de prompt para a criação de aplicações web e mobile.
 
 ```text
 Cole aqui o seu primeiro atalho, já adaptado.
@@ -72,6 +72,18 @@ Cole aqui o seu segundo atalho, já adaptado.
 
 ```text
 Cole aqui o pedido que você entregou à IA, com objetivo, contexto, recursos, limites e sucesso.
+
+Baseado nas informações referentes a escala 6x1 de trabalho presente na imagem.
+- O colaborador Fábio trabalha 2 domingos no mês e folga dois domingos.
+- Temos a folga dupla que no caso do Fábio ocorre após trabalhar sem ter folga na semana
+- Após a folga dupla ira folga novamente após 6 dias e trabalhará o domingo e também irá trabalhar o próximo domingo e folga no próximo dia.
+- Esta escala e quinzenal
+- Identificar quando o mês for de 31 e 29 dias para adequação.
+- Permitir marcações manuais dos dias de folga.
+- Quando o dia da folga coincidir com feriado alertar sobre a folga
+- Identificar que sempre deve ter um colaborador no horário das 6 da manhã.
+- Identificar que sempre deve ter um colaborador no horário das 14 da tarde.
+- Utilizar HTML+JS+CSS para compor o layout de tela.
 ```
 
 ### O Plano da IA
@@ -84,4 +96,5 @@ _Cole o print do resultado e conte como você conferiu antes de usar._
 
 ### Como Foi para Você
 
-_Conte em poucas linhas o que mudou no seu dia a dia._
+O resulto e bastante satisfatório, mas é preciso revisar sempre o que foi entregue baseado no que foi pedido
+e assim ajustar conforme as necessidades do projeto.
