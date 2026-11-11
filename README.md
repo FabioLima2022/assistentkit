@@ -53,6 +53,7 @@ Na sua cópia, abra este README, clique no lápis (**Edit this file**) e role at
 Nada de e-mail, nome de cliente, dado da empresa, senha ou informação pessoal nos textos e nos prints.
 
 ### Minha Tarefa Real
+<img width="515" height="231" alt="image" src="https://github.com/user-attachments/assets/3ec92ca5-21b3-40dc-b8fd-ab80513627c1" />
 
 Geração automática de escala dos colaboradores
 
